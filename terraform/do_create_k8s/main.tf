@@ -16,7 +16,7 @@ terraform {
   }
 
   backend "remote" {
-    organization = "datapunks"
+    organization = "annabaker"
     workspaces {
       name = "iac-do"
     }
